@@ -4,7 +4,7 @@ later_greeting="How are you?"
 greeting_occasion=1
  if [ $greeting_occasion -lt 1 ]
  then 
- echo $first_freeting
+ echo $first_greeting
  else
  echo $later_greeting
  fi
