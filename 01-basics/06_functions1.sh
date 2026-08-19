@@ -6,7 +6,7 @@ ADD (){
 }
 
 MULTIPLY (){
-    local result=$(( $1 * $2s))
+    local result=$(( $1 * $2))
     echo " product of $1 and $2 is $result "
 }
 
